@@ -7,8 +7,37 @@
   "license": "GPLv3",
   "web": "https://github.com/captainbland/nim-validation",
   "refs": [
-    "fatal: unable to access 'https://github.com/captainbland/nim-validation/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "validation",
+      "version": "0.3.0",
+      "author": "captainbland",
+      "desc": "Field validation for Nim objects",
+      "license": "GPLv3",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.20.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.20.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
